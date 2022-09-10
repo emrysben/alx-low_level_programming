@@ -1,15 +1,15 @@
 #include <stdio.h>
 /**
- * *main-is the entry point for the program.
- * *
- * *Return:zero if no error,non zero value if errors.
- * */
+ *  * main - Entry point
+ *   *
+ *    * Return: always 0
+ *     */
 int main(void)
 {
-	printf("Size of a char: %Id byte(s)\n", sizeof(char));
-	printf("Size of an int: %Id byte(s)\n", sizeof(int));
-	printf("Size of a long int: %Id byte(s)\n", sizeof(long int));
-	printf("Size of a long long int: %Id byte(s)\n", sizeof(long long int));
-	printf("Size of a float: %Id byte(s)\n", sizepof(float));
-	retrun (0);
+		printf("Size of a char: %d byte(s)\n", sizeof(char));
+			printf("Size of an int: %d byte(s)\n", sizeof(int));
+				printf("Size of a long int: %d byte(s)\n", sizeof(long int));
+					printf("Size of a long long int: %d byte(s)\n", sizeof(long long int));
+						printf("Size of a float: %d byte(s)\n", sizeof(float));
+							return (0);
 }
