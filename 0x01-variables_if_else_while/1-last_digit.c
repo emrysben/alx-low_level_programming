@@ -16,7 +16,7 @@
 
 	n = rand() - RAND_MAX / 2;
 
-	lastn = %d 10;
+	lastn == % 10;
 
 	if (lastn > 5)
 
