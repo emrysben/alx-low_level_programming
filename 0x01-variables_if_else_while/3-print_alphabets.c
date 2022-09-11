@@ -16,6 +16,7 @@
 	}
 
 	while (up <= 'Z')
+	
 	{
 		putchar(up);
 		up += 1;
