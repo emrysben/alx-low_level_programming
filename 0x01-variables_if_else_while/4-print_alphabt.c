@@ -4,30 +4,30 @@
  * You can only use the putchar
  * Return: 0
  */
-	int main(void)
+int main(void)
 
 {
-	int lw = 'a';
-	while (lw <= 'z')
+int lw = 'a';
+while (lw <= 'z')
 
-	{
-		if (lw == 'e' || lw == 'q')
+{
+if (lw == 'e' || lw == 'q')
 
-		{
-			lw += 1;
-		}
+{
+lw += 1;
+}
 
-		else
-		{
-			putchar(lw);
-			lw =+ 1;
+else
+{
+putchar(lw);
+lw += 1;
 
-		}
+}
 
-		{
+}
 
-			putchar('\n');
+putchar('\n');
 
-			return (0);
+return (0);
 
-		}
+}
