@@ -10,7 +10,6 @@
 	int l = 'a';
 	while (l <= 'z')
 
-		
 	{
 		putchar(l);
 		l += 1;
