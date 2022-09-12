@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main - program that prints the alphebets in lowercase, and then in uppercase
- * You can only use putchar
+ * main - program that prints the alphabet in lowercase, and then in uppercase,
+ * You can only use the putchar
  * Return: 0
  */
 	int main(void)
@@ -21,10 +21,7 @@
 		putchar(up);
 		up += 1;
 	}
-
 	putchar('\n');
-
 	return (0);
 
 }
-
