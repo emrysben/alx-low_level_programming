@@ -4,24 +4,24 @@
  * You can only use the putchar
  * Return: 0
  */
-	int main(void)
+int main(void)
 {
-	int lw = 'a';
-	int up = 'A';
-	while (lw <= 'z')
+int lw = 'a';
+int up = 'A';
+while (lw <= 'z')
 
-	{
-		putchar(lw);
-		lw += 1;
-	}
+{
+putchar(lw);
+lw += 1;
+}
 
-	while (up <= 'Z')
-	
-	{
-		putchar(up);
-		up += 1;
-	}
-	putchar('\n');
-	return (0);
+while (up <= 'Z')
+
+{
+putchar(up);
+up += 1;
+}
+putchar('\n');
+return (0);
 
 }
