@@ -6,7 +6,7 @@
  * 
  */
 
-void print_alphabet(void)
+void print_alphabet(void);
 {
 
 char ch;
@@ -19,5 +19,3 @@ while (ch <= 'z')
 _putchar('\n')
 
 Return: 0
-
-}
