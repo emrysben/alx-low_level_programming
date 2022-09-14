@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 
 /**
  * - main entry point
@@ -10,9 +10,10 @@ int main(void)
 {
 
 {
-_putchar('_putchar')
+	_putchar('_putchar')
+	_putchar("\n")
 }
 
-Return: 0
+	Return (0)
 
 }
