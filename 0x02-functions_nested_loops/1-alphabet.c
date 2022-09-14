@@ -17,7 +17,3 @@ _putcher(ch);
 ch++;
 }
 _putcher('\n');
-
-Return (0);
-
-}
