@@ -6,16 +6,17 @@
  * 
  */
 
-void print_alphabet(void);
+void print_alphabet(void)
 {
 
-char ch;
-ch = 'a';
-while (ch <= 'z')
+	char ch;
+
+	ch = 'a';
+	while (ch <= 'z')
 {
 	_putcher(ch);
 	ch++;
 }
-_putcher('\n');
+	_putcher('\n');
 
 }
