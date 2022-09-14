@@ -13,9 +13,9 @@ char ch;
 ch = 'a';
 while (ch <= 'z')
 {
-_putchar(ch);
+_putcher(ch);
 ch++;
 }
-_putchar('\n')
+_putcher('\n');
 
-Return: 0
+Return (0)
