@@ -6,7 +6,7 @@
  * 
  */
 
-int main(void)
+void print_alphabet(void)
 {
 
 char ch;
@@ -17,3 +17,5 @@ _putcher(ch);
 ch++;
 }
 _putcher('\n');
+
+}
