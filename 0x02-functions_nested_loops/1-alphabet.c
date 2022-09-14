@@ -13,8 +13,8 @@ char ch;
 ch = 'a';
 while (ch <= 'z')
 {
-_putcher(ch);
-ch++;
+	_putcher(ch);
+	ch++;
 }
 _putcher('\n');
 
