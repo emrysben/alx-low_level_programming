@@ -2,10 +2,11 @@
 
 /**
  * _putchar - writes the character c to stdout
- * @c: - the character to print
  *
- * Reurn: On sucess 1
- * on error, -1 is returned, and errno is set appropirately.
+ * @c: the character to print
+ *
+ * Return: On sucess 1
+ * On fail -1 and errno is set appropirately.
  */
 int _putchar(char c)
 {
