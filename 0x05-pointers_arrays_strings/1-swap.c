@@ -7,7 +7,7 @@
  * @b: second integer to swap
  *
  */
-void swap__int(int *a, int *b)
+void swap_int(int *a, int *b)
 {
 	int c = *b;
 	int d = 0;
