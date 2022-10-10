@@ -1,0 +1,1 @@
+preprocessor, malloc, _putchar
